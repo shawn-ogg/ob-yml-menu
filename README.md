@@ -60,3 +60,8 @@ optional arguments:
   -h, --help           show this help message and exit
   --terminal TERMINAL  default terminal to use (defaults to xterm if not set)
 ```
+
+So a possible invocation would be like this (beware it will overwrite your menu.xml!):
+```
+./ob-yml-menu.py --terminal terminator example.yml > ~/.config/openbox/menu.xml
+```
