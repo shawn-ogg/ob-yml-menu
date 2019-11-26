@@ -1,0 +1,30 @@
+---
+openbox_menu:
+    - Terminal: $terminal  # defaults to xterm. Use eg. --terminal rxvt for a different one
+    - File Manager: $terminal -e mc
+    - separator:
+    - Development:
+        - Geany:  # defaults to 'geany'
+        - Meld:
+        - PyCharm:
+        - VS Code: code
+        - Vim: $terminal -e vim
+    - Browser:
+        - Chromium:
+    - Mail/Chat:
+        - Thunderbird:
+        - Telegram: telegram-desktop
+    - Multimedia:
+        - Audacious:
+        - Electronplayer:
+        - PulseAudio Volume Control: pavucontrol
+    - Pipemenus:
+        - Remote Hosts: |
+            ~/bin/bl-sshconfig-pipemenu
+    - System:
+        - htop: $terminal -e htop
+        - Openbox:
+            - Reconfigure: openbox --reconfigure
+    - separator:
+    - Logout: oblogout
+
