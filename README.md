@@ -49,7 +49,7 @@ A couple of things to notice:
 
 ### Usage
 ```
-usage: ob-yml-menu.py [-h] [--terminal TERMINAL] yml_file
+usage: ob-yml-menu [-h] [--terminal TERMINAL] yml_file
 
 Convert yml file to openbox xml format
 
@@ -61,7 +61,7 @@ optional arguments:
   --terminal TERMINAL  default terminal to use (defaults to xterm if not set)
 ```
 
-So a possible invocation would be like this (beware it will overwrite your menu.xml!):
+So a possible invocation would be like this (_beware it will overwrite your menu.xml!_):
 ```
-./ob-yml-menu.py --terminal terminator example.yml > ~/.config/openbox/menu.xml
+./ob-yml-menu --terminal terminator example.yml > ~/.config/openbox/menu.xml
 ```
