@@ -65,3 +65,15 @@ So a possible invocation would be like this (_beware it will overwrite your menu
 ```
 ./ob-yml-menu --terminal terminator example.yml > ~/.config/openbox/menu.xml
 ```
+
+### Installation Notes
+
+On **Debian/Ubuntu** flavored systems you may need to install PyYAML:
+```
+sudo apt-get install python3-yaml
+```
+
+You can use an **AUR** package on **Arch Linux**:\
+https://aur.archlinux.org/packages/ob-yml-menu/
+
+
